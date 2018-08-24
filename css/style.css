@@ -13,9 +13,10 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	align-items: center;
+	/*align-items: center;*/
 }
 a.brand-logo {
+	padding-top: 20px; 
 	width: 20%;
 	font-size: 1.3rem;
 	font-family: 'Raleway',sans-serif;
@@ -58,14 +59,12 @@ a#bars {
 }
 
 @media screen and (max-width: 500px) {
-	.navbar .brand-logo {
-		display: none;
-	}
 	.menu .menu-list li:not(:last-child) {
 		display: none;
 	}
 	a#bars {
 		display: block;
+		padding-top: 20px; 
 	}
 }
 @media screen and (max-width: 500px) {
